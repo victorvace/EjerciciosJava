@@ -12,7 +12,7 @@ public class AppController {
 
         ViewMenu viewMenu = new ViewMenu();
         Scanner sc = new Scanner(System.in);
-        int selector = 0;
+        int selector;
 
         ArrayList<Company> listCompany = new ArrayList<>();
         ArrayList<Employee> listEmployees = new ArrayList<>();
