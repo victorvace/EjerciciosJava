@@ -23,7 +23,7 @@ public class EmployeeController {
         return employee;
     }
 
-    public void showInfo(ArrayList<Employee> listEmployee){
+    public void showInfo(ArrayList<Employee> listEmployee) {
         System.out.println("Selecciona un empleado:");
         for (int i = 0; i < listEmployee.size(); i++) {
             System.out.println((i + 1) + ". " + listEmployee.get(i).getName());
@@ -33,7 +33,7 @@ public class EmployeeController {
         System.out.println(listEmployee.get(idEmployee).toString());
     }
 
-    public void showList(ArrayList<Employee> listEmployees){
+    public void showList(ArrayList<Employee> listEmployees) {
         for (int i = 0; i < listEmployees.size(); i++) {
             System.out.println((i + 1) + ".\t" + listEmployees.get(i).getName());
         }

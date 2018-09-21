@@ -43,9 +43,11 @@ public class CompanyController {
         String year = sc.nextLine();
         company.setFoundationYear(year);
         return company;
+
     }
 
-    public void showInfo(ArrayList<Company> listCompany){
+    public void showInfo(ArrayList<Company> listCompany) {
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Selecciona una empresa:");
         for (int i = 0; i < listCompany.size(); i++) {
@@ -56,9 +58,11 @@ public class CompanyController {
 
     }
 
-    public void showList(ArrayList<Company> listCompany){
+    public void showList(ArrayList<Company> listCompany) {
+
         for (int i = 0; i < listCompany.size(); i++) {
             System.out.println((i + 1) + ".\t" + listCompany.get(i).getName());
         }
+
     }
 }
