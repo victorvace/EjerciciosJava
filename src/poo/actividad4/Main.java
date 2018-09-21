@@ -1,10 +1,10 @@
 package poo.actividad4;
 
-import poo.actividad4.controlador.MenuController;
+import poo.actividad4.controlador.AppController;
 
 public class Main {
     public static void main(String[] args) {
-        MenuController menu = new MenuController();
+        AppController menu = new AppController();
         menu.menuSelector();
     }
 }

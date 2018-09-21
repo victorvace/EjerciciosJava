@@ -3,7 +3,7 @@ package poo.actividad4.vistas;
 public class ViewMenu {
     public void show() {
 
-        System.out.println("Selecciona una opción: ");
+        System.out.println("\nSelecciona una opción: ");
         System.out.println("1.\tCrear nueva empresa.");
         System.out.println("2.\tAñadir empleado a empresa existente.");
         System.out.println("3.\tListado de empresas.");
